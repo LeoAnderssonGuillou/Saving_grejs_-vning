@@ -8,6 +8,8 @@ namespace Saving_grejs_övning
         public string Species { get; set; }
         public int PowerLevel { get; set; }
 
+        public Character() { }
+
         public Character(string name, string species, int power)
         {
             Name = name;
